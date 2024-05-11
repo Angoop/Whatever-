@@ -62,7 +62,7 @@ public class move : MonoBehaviour
         Vector3 movement = transform.forward * moveDir.y + transform.right * moveDir.x;
         moveDir = movement * speed * Time.deltaTime;
 
-        transform.Translate(moveDir);
+        transform.Translate(moveDir, Space.World);
 
         Jump();
         RotateView();
