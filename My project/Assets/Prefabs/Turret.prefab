@@ -165,3 +165,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b00990794afcf64fbf447616e304231, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  target: {fileID: 8019178149936364046, guid: aad47180ae025184ab838f06f454d317, type: 3}
+  aimingSpeed: 1
